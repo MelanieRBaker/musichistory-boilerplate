@@ -1,11 +1,26 @@
 .topBar {
 	border: 2px solid;
 	background-color: #FFB4B0;
+	margin-bottom: 15px;
+}
+
+.topBar li {
+	display: inline;
 }
 
 .sideBar {
 	float: left;
 	background-color: #4DD7FA;
 	border: 2px solid;
+	padding: 10px;
 }
 
+.checkBoxes label {
+	float: left;
+	width: 50%;
+}
+
+.sideTitle {
+	display: block;
+	margin: 10px 0 3px;
+}
